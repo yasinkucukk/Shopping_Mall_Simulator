@@ -1,10 +1,10 @@
-public class Underware extends Clothing {
+public class Underwear extends Clothing {
     
-    public Underware() {
+    public Underwear() {
         this(30.0);
     }
     
-    public Underware(double basePrice) {
+    public Underwear(double basePrice) {
         setBasePrice(basePrice);
     }
     
@@ -15,6 +15,6 @@ public class Underware extends Clothing {
     
     @Override
     public void howToWash() {
-        System.out.println("Wash Underware at 60 degrees.");
+        System.out.println("Wash Underwear at 60 degrees.");
     }
 }
