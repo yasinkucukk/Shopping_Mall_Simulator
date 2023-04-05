@@ -36,6 +36,7 @@ public class ShoppingMall {
         items.add(item);
     }
 
+    //Calculates the total bill.
     public double bill() {
         double total = 0;
         for (Item item : items) {
