@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class ShoppingMall {
     
-    private static ArrayList<Item> items;
+    private static ArrayList<Item> items = new ArrayList<>();
 
     public ArrayList<Item> getItems() {
         return items;
